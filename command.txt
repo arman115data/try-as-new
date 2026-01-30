@@ -7,7 +7,14 @@ git init
 #use every add
 git add .
 
+#use every time
 git commit -m "first commit"
+
+#once for every repository
 git branch -M main
+
+#once for every repository
 git remote add origin https://github.com/arman115data/try-as-new.git
+
+
 git push -u origin main
