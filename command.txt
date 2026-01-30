@@ -1,0 +1,13 @@
+echo "# try-as-new" >> README.md
+git add README.md
+----------------------------------------------------------
+#use for every project one time
+git init
+
+#use every add
+git add .
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arman115data/try-as-new.git
+git push -u origin main
